@@ -65,7 +65,7 @@
         #footer {
             margin-top: 10px;
             border-top: 1px #eee solid;
-            padding-top: 50px;
+            padding-top: 10px;
           font-size: 18px;
         }
         #footer ul{
@@ -80,20 +80,65 @@
           padding-right: 5px;
           font-size: 18px;
         }
+        hr{
+            border-top: 0.5px solid #eee;
+        }
+        #hero{
+            border-radius: 500px;
+            border: 5px #eee solid;
+        }
+        #hero:hover{
+            border-radius: 500px;
+            border: 2px black solid;
+            box-shadow: 0 0 10px #211951, 
+                        0 0 15px #836FFF,
+                        0 0 30px #15F5BA,
+                        0 0 40px #F0F3FF;
+        }
+        a.button{
+            padding: 5px;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+        a.button:hover{
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+        }
+
     </style>
 </head>
 <body>
         <h1>Adventurers Wanted</h1>
     <p>Adventurers wanted for hazardous journey. Low wages, bitter cold, long hours of complete darkness. Safe return doubtful. Honour and recognition in event of success.</p>
 
-    <p><a href="https://t.me/+XWrI5MEZ4KA0ZjNh">Inquire within</a></p>
-    <img src="img.png" style="max-width:50%">
+    <p><a class="button" href="https://t.me/+XWrI5MEZ4KA0ZjNh">Inquire within</a></p>
+    <br>
+    <img id='hero' src="img.png" style="max-width:50%">
 
     <div id="footer">
         <h2>What is Allo.Capital?</h2>
         <p>
             Allo.Capital is a hybrid research org, software studio, and venture fund.  We are catalyzing a network of hackers, thinkers, and doers, to help fund what matters in the 21st century. <i>( made with ❤️ at <a href="https://gitcoin.co">Gitcoin</a> )</i>
         </p>
+        <br>
+        <hr>
+        <h2>Wen Allo.Capital?</h2>
+        <h3>Near Term</h3>
+        <p>
+            Summoning Ceremony - Q1(ish) 2025.
+        </p>
+        <h3>Medium Term</h3>
+        <p>
+            Fund Builders of Onchain Capital Allocation Infrastructure.
+        </p>
+        <h3>Long Term</h3>
+        <p>
+            Build the Capital Allocation Layer of the Tokenized Internet.
+        </p>
+
         <p class="section">
             <h2>Where can I learn more?</h2>
             <h3>Research</h3>
