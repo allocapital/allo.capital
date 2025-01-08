@@ -53,7 +53,21 @@
         margin: 0; /* Removes default margins */
         padding: 0; /* Removes default padding */
     }
-
+        #header{
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            top: 0px;
+            right: 10%;
+            list-style-type: none;
+            background-color: white;
+            border-radius: 0px 0px 10px 10px;
+        }
+        #header li{
+            display: inline-block;
+            padding: 10px;
+            font-size: 18px;
+        }
         h1 {
             font-family: 'Cinzel', serif;
             font-size: 2.5rem;
@@ -80,7 +94,7 @@
             border-top: 1px #eee solid;
             padding-top: 10px;
           font-size: 18px;
-          max-width: 800px;
+          max-width: 900px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -139,6 +153,13 @@
     </style>
 </head>
 <body>
+    <ul id="header">
+        <li><a href="#what">What</a></li>
+        <li><a href="#why">Why</a></li>
+        <li><a href="#when">Wen</a></li>
+        <li><a href="#faq">FAQ</a></li>
+    </ul>
+
         <h1>⚔️🐉Adventurers Wanted</h1>
     <p style="">Adventurers wanted for hazardous journey. Low wages, bitter cold, long hours of complete darkness. Safe return doubtful. Honour and recognition in event of success.</p>
     <br>
@@ -149,7 +170,7 @@
     <div id="footer_container">
     <div id="footer">
         <h1>🗺️ The Adventure...</h1>
-        <h2>What is Allo.Capital?</h2>
+        <h2 id="what">What is Allo.Capital?</h2>
         <p>
             Allo.Capital is a hybrid research org, software studio, and venture fund.
             <br>
@@ -164,7 +185,7 @@
         </p>
         <br>
         <hr>
-        <h2>Why Allo.Capital?</h2>
+        <h2 id="why">Why Allo.Capital?</h2>
         <h3>Builders 🤝 Funders</h3>
         <p>
             <strong>For Funders</strong>: Git Upside in the Best Innovations.
@@ -175,7 +196,7 @@
             <br>
         </p>
         <hr>
-        <h2>Wen Allo.Capital?</h2>
+        <h2 id="when">Wen Allo.Capital?</h2>
         <h3>Near Term</h3>
         <p>
             Summoning Ceremony - Q1(ish) 2025.
@@ -191,7 +212,7 @@
 
 
         <hr>
-        <h2>FAQ</h2>
+        <h2 id="faq">FAQ</h2>
         <h3>What does Allo do?</h3>
         <p>
             <strong> For builders:</strong>
@@ -202,6 +223,10 @@
                 <br>
             <strong> For everyone:</strong>
                 We cartography the Design Space of Onchain Capital Allocation and ship world-class intelligence about this emerging frontier.
+        </p>
+        <h3>Is there an $ALLO token?</h3>
+        <p>
+            No.
         </p>
         <h3>How do I git involved?</h3>
         <p>
@@ -236,22 +261,22 @@
 
         <h3>Will there really be a hazardous journey, with low wages, bitter cold, and/or long hours of complete darkness?</h3>
         <p>
-            Anything is possible.  Nothing is for certain. Crypto is risky and this is the frontier. If you are a sovereign individual with something to contribute and the stomach for a long journey, please DYOR, gear up, and be prepared before you party up with us. 
+            Anything is possible.  Nothing is for certain. Crypto is risky and this is the frontier. If you are a sovereign individual with something to contribute and the stomach for a long journey through the next bear market, please DYOR, gear up, and be prepared before you party up with us. 
             <br><br>
             If we are successful, honour and recognition will be <strong>allo</strong>cated meritocratically to those who contributed to the success.  You can think of our call for "adventurers wanted" as a memetic filter designed to filter out those will not survive the journey.  Inversely, this will make sure that those who journey forward are committed to success.
         </p>
 
        <h3>Is this a Gitcoin project?</h3>
         <p>
-            Yes, but there is nuance!
+            TLDR Yes it's origin is from Gitcoin.
             <br>
             <br>
-            Allo Protocol was incubated at Gitcoin and <a href="https://gov.gitcoin.co/t/how-might-we-fund-what-matters-better-faster-cheaper-in-2025/19819/4">after</a> <a href="https://gov.gitcoin.co/t/the-cathedral-the-bazaar-gitcoin-allo/19832">much</a> <a href="https://gov.gitcoin.co/t/allo-gitcoin-do-they-make-more-sense-together-or-seperate/19730">rumination</a>, <a href="https://gov.gitcoin.co/t/3-core-challenges-to-solve-in-2025/19825/3">discussion,</a> <a href="https://gov.gitcoin.co/t/open-source-and-enterprise-development-complement-each-other/19676">and</a> <a href="https://gov.gitcoin.co/t/allo-2-1-2-2/19724/2">learning</a> is now launching as an independent project called Allo.Capital, which will be governed by a decentralized network of funders, builders, and stakeholders - including Gitcoin. <a href="https://x.com/owocki">@owocki</a> and <a href="https://x.com/deltajuliet7362">@deltajuliet</a> are stewarding it through this transition.
+            Some history: Allo Protocol was incubated at Gitcoin and <a href="https://gov.gitcoin.co/t/how-might-we-fund-what-matters-better-faster-cheaper-in-2025/19819/4">after</a> <a href="https://gov.gitcoin.co/t/the-cathedral-the-bazaar-gitcoin-allo/19832">much</a> <a href="https://gov.gitcoin.co/t/allo-gitcoin-do-they-make-more-sense-together-or-seperate/19730">rumination</a>, <a href="https://gov.gitcoin.co/t/3-core-challenges-to-solve-in-2025/19825/3">discussion,</a> <a href="https://gov.gitcoin.co/t/open-source-and-enterprise-development-complement-each-other/19676">and</a> <a href="https://gov.gitcoin.co/t/allo-2-1-2-2/19724/2">learning</a> is now launching as an independent project called Allo.Capital (if approved by Gitcoin governance). This project will be governed by a decentralized network of funders, builders, and stakeholders - including Gitcoin. <a href="https://x.com/owocki">@owocki</a> and <a href="https://x.com/deltajuliet7362">@deltajuliet</a> are stewarding it through this transition.
             <br><br>
             We ❤️ Gitcoin, <a href="https://x.com/owocki/status/1875993760536084930">are proud of all it's accomplished in the last few years</a>, and share it's mission to "Fund What Matters".  We will continue to be Gitcoin stewards, Gitcoin founders, Gitcoin Grants users, $GTC holders, and work together at <a href="https://gov.gitcoin.co/t/3-layers-to-a-dao-to-dao-partnership/10657">the social, technology, and economic layers</a> to build shared momentum across the two projects. 
         </p>
-        <!--
-       <h3>Why go independent?</h3>
+        
+       <h3>Why launch a new brand?</h3>
         <p>
            TLDR, to
 <br>        1. create a new brand that is unencumbered by Gitoin's affiliation with public goods & nonprofit work.  Allo's brand is focused on sharp, sophisticated, power tools for capital allocation.
@@ -264,7 +289,19 @@
 To learn more about the considerations behind this discussion, read <a href="https://gov.gitcoin.co/t/how-might-we-fund-what-matters-better-faster-cheaper-in-2025/19819/4">the</a> <a href="https://gov.gitcoin.co/t/the-cathedral-the-bazaar-gitcoin-allo/19832">much</a> <a href="https://gov.gitcoin.co/t/allo-gitcoin-do-they-make-more-sense-together-or-seperate/19730">rumination</a>, <a href="https://gov.gitcoin.co/t/3-core-challenges-to-solve-in-2025/19825/3">discussion,</a> <a href="https://gov.gitcoin.co/t/open-source-and-enterprise-development-complement-each-other/19676">and</a> <a href="https://gov.gitcoin.co/t/allo-2-1-2-2/19724/2">learning</a> that preceded this move!
 
         </p>
-         -->
+
+       <h3>Do Gitcoin and Allo.Capital have aligned incentives?</h3>
+        <p>
+            We've taken great care to align these two projects around shared success, and they are design to interoperate by sharing intelligence, distribution, $$$, software and talent.
+            <br>
+            <img src="alignment.png" style="max-width:400px">
+            <br>
+            Over time, we hope to see this network grow into a DAO of DAOs that rises and falls together.  A mesh network of coordination to solve the worlds capital allocation problems at scale.
+            <br>
+            <img src="daoofdaos.png" style="max-width:700px">
+        </p>
+
+         
        <h3>How does Allo.Capital differ from Allo Protocol?</h3>
         <p>
             Allo Protocol was focused on a protocol-first go-to-market, whereas Allo.Capital is focused on a <a href="https://gov.gitcoin.co/t/capital-allocation-category-creation-strategy-2024/19256">Category-first</a> and <a href="https://gov.gitcoin.co/t/how-should-we-be-exploring-the-capital-allocation-design-space/19562">Network-first</a> go-to-market.
@@ -274,10 +311,14 @@ To learn more about the considerations behind this discussion, read <a href="htt
         </p>
         <h3>Who's working on this?</h3>
         <p>
-            A ragtag group of amazing artists, engineers, dreamers, thinkers, that Owocki has met through his journey.  If you want specifics, checkout <a href="https://t.me/+XWrI5MEZ4KA0ZjNh">the telegram</a> and <a href="https://github.com/allocapital">github</a> to get a sense of who is working on what.
+            A ragtag group of amazing artists, engineers, dreamers, thinkers, that Owocki has met through his web3 journey.  If you want specifics, checkout <a href="https://t.me/+XWrI5MEZ4KA0ZjNh">the telegram</a> and <a href="https://github.com/allocapital">github</a> to get a sense of who is working on what.
             <br>
             <br>
             Allo.Capital is designed to become a broad tent over time, we hope that everyone who is building onchain capital allocation infrastructure will eventually be a part of Allo.Capital - either at the social, economic, or technological layers.
+
+            <h3>In 10 years, if you are massively successful, what does that look like?</h3>
+            We will have built the capital allocation layer of the tokenized internet, created an fractal wave of positive impact, and produced a retuirn for those who supported us along the way (esp Gitcoin, its users).
+
             <h3>Where can I learn more?</h3>
             <h3>Research</h3>
             <strong>Research Core: </strong> 
@@ -285,6 +326,7 @@ To learn more about the considerations behind this discussion, read <a href="htt
             <li><a href="https://gitcoin.co/whitepaper">Gitcoin Whitepaper & Rainbowpaper</a> ( Q2 2024),</li>
             <li><a href="https://allobook.gitcoin.co">Allo Book</a> (Q3/Q4 2024),</li>
             <li><a href="https://allo.expert">Allo Expert</a> (Q4 2024),</li>
+            <li><a href="https://research.allo.capital">research.allo.capital</a> (Coming Soon),</li>
             </ul>
             <br>
             <strong>Selected Research: </strong> 
@@ -349,3 +391,12 @@ To learn more about the considerations behind this discussion, read <a href="htt
 </body>
 </html>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LDTN9VZX6T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LDTN9VZX6T');
+</script>
